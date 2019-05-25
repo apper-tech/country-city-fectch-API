@@ -1,4 +1,4 @@
-# Country and City Fectcher
+# Country and City Fetcher
 A Crawler for Country and City Information using google reverse API and Microsoft Globalization Framework
 
 # Structure:
