@@ -1,0 +1,27 @@
+﻿//---Country And City Crowler--//
+*- the program filles the current configurated database with info Inclded as:
+1- Country Details:
+- Country ID (Auto Generated)
+- Country Name (String) Note 1
+- Country Native Name (String) Note 2
+- Country Latin Native Name (String) Note 2
+2- City Details:
+- City ID (Auto Generated)
+- Country Name (String) Note 1
+- Country Native Name (String) Note2
+- Country Native Latin Name (String) Note 2
+- Latitude (decimal) Note 1
+- Longitude (decimal) Note 1
+**-------------------**
+Note 1:
+All the Feilds Assosiated with this are form this source:
+ www.geonames.com
+used geonames/export/dump/cities1500.zip
+Convert to excel
+import country and basic city Data
+**------------------**
+Note 2:
+All the Feilds Assosiated with this are form this source:
+maps.googleapis.com/maps/api/geocode/xml
+Pass the Lat and Lng 
+REturn the complete data
